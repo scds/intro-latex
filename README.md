@@ -1,7 +1,7 @@
 Intro to LaTeX
 Materials for the DMDS workshop: Intro to LaTeX
 
-This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.githib.io/intro-latex) with GitHub Pages   
+This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.github.io/intro-latex) with GitHub Pages   
 
 
 Contributions by the following individuals: 
