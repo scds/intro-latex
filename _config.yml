@@ -2,7 +2,7 @@ title: "Intro to LaTeX"
 subtitle: 'SCDS Data Analysis Support Hub'
 
 remote_theme: scds/just-the-docs
-github_repo_url: "https://scds.github.io/dmds-template/" https://scds.github.io/intro-latex/
+github_repo_url: "https://scds.github.io/intro-latex/"
 color_scheme: mcmaster
 # logo: "https://github.com/scds/intro-voyant/blob/main/assets/img/dmds-tableau.png?raw=true"
 
