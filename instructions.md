@@ -8,7 +8,7 @@ After ensuring that you've followed the [Preparatory steps](preparation), open L
 
 ## Workshop recording
 
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/4841a75f-7797-4e81-a440-7b27626d3895/public"></iframe>
+<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/4841a75f-7797-4e81-a440-7b27626d3895/public"> </iframe>
 
 View the original [here](https://echo360.ca/section/8573df1a-4fe8-4c7f-a88f-cdbdf9b96e16/public).
 
