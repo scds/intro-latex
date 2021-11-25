@@ -27,7 +27,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "View this content on GitHub"
-gh_edit_repository: "https://github.com/scds/dmds-intro-latex
+gh_edit_repository: "https://github.com/scds/dmds-intro-latex"
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -38,7 +38,7 @@ plugins:
   - jekyll-seo-tag
 
 # Google Analytics Tracking
-ga_tracking: G-8K9G92YBJ3
+ga_tracking: "G-8K9G92YBJ3"
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 license_url: "http://creativecommons.org/licenses/by/4.0/"
 license_name: "Creative Commons Attribution 4.0 International License"
