@@ -5,15 +5,12 @@ description: SCDS Do More with Digital Scholarship workshop series
 nav_order: 1
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
+<img src="assets/img/Latex2 Mac Template Poster.jpg" alt="Workshop Title Slide" width="720">
 
-<!--
-<img src="assets/img/dmds-tableau.png" alt="Workshop Title Slide" width="720">
+# Welcome to Intro to LaTeX
 
-# Welcome to Data Visualization with Tableau. 
-
-You might not think of numbers and locations as Humanities data, but it all depends on how you use them! Working with numeric and spatial data, you will learn how to create visualizations in [Tableau](https://www.tableau.com/).
+This module will introduce you to LaTeX, a typesetting system commonly used in STEM disciplines to create high-quality documents and easily write mathematical equations. We will discuss tools for writing in LaTeX, the structural elements of LaTeX, text formatting, and commands for writing mathematical equations. You will learn the commands to create your first LaTeX document.
 
 Proceed to the [Preparation](preparation) page to get started.
--->
+
 
