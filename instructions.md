@@ -16,7 +16,7 @@ View the original [here](https://echo360.ca/section/8573df1a-4fe8-4c7f-a88f-cdbd
 ## Workshop slides
 
 <div style="position:relative;padding-top:66.25%;">
-<iframe src="https://docs.google.com/viewer?url=https://github.com/scds/intro-latex/blob/a39ed4222094132bcb1f3fed9d3ab2aa128ddb9c/assets/docs/Intro_to_LaTeX_workshop.pdf" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
+<iframe src="//docs.google.com/viewer?url=https://github.com/scds/intro-latex/blob/a39ed4222094132bcb1f3fed9d3ab2aa128ddb9c/assets/docs/Intro_to_LaTeX_workshop.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
 </div>
 
 [Download as a PDF](https://github.com/scds/intro-latex/blob/main/assets/docs/Intro_to_LaTeX_workshop.pdf)
