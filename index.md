@@ -1,16 +1,31 @@
 ---
 layout: home
 title: Home
-description: SCDS Do More with Digital Scholarship workshop series
 nav_order: 1
+has_toc: false
+
+# Set this to "false" if you removed 'previousOffering.md'
+has_children: true 
 ---
 
-<img src="assets/img/Latex2 Mac Template Poster.jpg" alt="Workshop Title Slide" width="720">
+<img src="assets/img/titleSlide.jpg" alt="Workshop Title Slide" width="100%">
 
-# Welcome to Intro to LaTeX
+# Introduction to LaTeX
 
 This module will introduce you to LaTeX, a typesetting system commonly used in STEM disciplines to create high-quality documents and easily write mathematical equations. We will discuss tools for writing in LaTeX, the structural elements of LaTeX, text formatting, and commands for writing mathematical equations. You will learn the commands to create your first LaTeX document.
 
-Proceed to the [Preparation](preparation) page to get started.
+## Prerequisites
+<!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
+- TODO
 
+<!-- What will the student learn to do, learn to use, etc. -->
+## Learning Objectives
+By the end of this workshop, you will be able to:
+- TODO
 
+<!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
+## Duration
+This module will take around 1-2 hours, however feel free to work at your own pace!
+
+## Land Acknowledgement
+We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the Dish With One Spoon wampum agreement.

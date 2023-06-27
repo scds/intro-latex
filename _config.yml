@@ -1,21 +1,21 @@
-title: Workshop Name # *** Enter workshop title here 
-github_repo_url: "https://scds.github.io/scds-template/" # *** Enter workshop URL (in github pages) here
-gh_edit_repository: "https://github.com/scds/scds-template" # *** Enter the github URL for your repo
+title: "Introduction to LaTeX" # *** Enter workshop title here 
+github_repo_url: "https://scds.github.io/intro-latex/" # *** Enter workshop URL (in github pages) here
+gh_edit_repository: "https://github.com/scds/intro-latex/" # *** Enter the github URL for your repo
 ga_tracking: "G-8K9G92YBJ3" # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
 
 # DMDS Settings
-subtitle: "This workshop is part of the SCDS Do More with Digital Scholarship series."
-nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
-nav_footer_logo_bottom_href: "https://scds.ca/"
-nav_footer_logo_top: ""
-nav_footer_logo_top_href: ""
-
-# DASH settings
-# subtitle: 'This workshop is part of the Data Analysis Support Hub series.'
+# subtitle: "This workshop is part of the SCDS Do More with Digital Scholarship series."
 # nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
 # nav_footer_logo_bottom_href: "https://scds.ca/"
-# nav_footer_logo_top: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/dash-logo.png"
-# nav_footer_logo_top_href: "https://library.mcmaster.ca/services/dash"
+# nav_footer_logo_top: ""
+# nav_footer_logo_top_href: ""
+
+# DASH settings
+subtitle: 'This workshop is part of the Data Analysis Support Hub series.'
+nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
+nav_footer_logo_bottom_href: "https://scds.ca/"
+nav_footer_logo_top: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/dash-logo.png"
+nav_footer_logo_top_href: "https://library.mcmaster.ca/services/dash"
 
 # OTHER settings - Override series specific settings
 # subtitle: "This workshop is part of the __ series."
@@ -30,6 +30,11 @@ nav_footer_logo_top_href: ""
 # | |___  | (_| | | | | |_     / ___ \  | |_) | | (_) |  \ V /  |  __/
 # |_____|  \__,_| |_|  \__|   /_/   \_\ |_.__/   \___/    \_/    \___|
 
+aux_links:
+  "SCDS Workshops":
+    - "https://scds.ca/online-learning/"
+
+navigation: true
 
 # Override Default SCDS Web Icon
 favicon_ico: ""
@@ -87,6 +92,3 @@ callouts:
   warning:
     title: Warning
     color: red
-
-title: "Intro to LaTeX"
-subtitle: 'SCDS Data Analysis Support Hub'
