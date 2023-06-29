@@ -72,12 +72,52 @@ The universal law of gravitation can be expressed with the equation $ F = \frac{
 
 </div>
 
-## Examples of Figures with LaTeX and tikz
+## Examples of Figures created with LaTeX and tikz
 
-<div style="display: flex" class="code-example">
+<div style="display: flex; justify-content: space-around; align-items: baseline" class="code-example">
 
-<img width="40%" src="assets/img/introduction/tikz1.svg">
+<div style="width: 45%" markdown="1">
+  <img width="100%" src="assets/img/introduction/tikz1.svg">
+  (a) Source: [Wikipedia](https://en.wikipedia.org/w/index.php?title=PGF/TikZ&oldid=1157623668)
+</div>
 
-<img width="40%" src="assets/img/introduction/tikz2.svg">
+<div style="width: 45%" markdown="1">
+  <img width="100%" src="assets/img/introduction/tikz2.svg">
+  (b) Source: [Wikipedia](https://en.wikipedia.org/w/index.php?title=PGF/TikZ&oldid=1157623668)
+</div>
 
 </div>
+
+## Examples of Documents created with LaTeX
+
+<details markdown="1">
+<summary>Tverberg’s theorem is 50 years old: a survey</summary>
+<embed height="800" width="100%" src="https://arxiv.org/pdf/1712.06119.pdf">
+[See original](https://arxiv.org/pdf/1712.06119.pdf)
+</details>
+
+<details markdown="1">
+<summary>Practice Exam</summary>
+<embed height="800" width="100%" src="assets/docs/ExampleDocument2.pdf">
+[See original](assets/docs/ExampleDocument2.pdf)
+</details>
+
+## Tools for writing in LaTeX
+
+### Editors
+While you can write LaTeX in just about any text editor, [Texmaker](https://www.xm1math.net/texmaker/) is one of the most popular editors that supports all major operating systems. It comes with built in tools that makes writing in LaTeX a lot easier. 
+
+### Distributions / Compilers
+In order to turn your LaTeX code into a document, you need a LaTeX compiler. There are three main compilers for LaTeX, one for each operating system.
+
+Windows
+: [MiKTeX](https://miktex.org/)
+
+Mac
+: [MacTeX](https://www.tug.org/mactex/)
+
+Linux
+: [TeXLive](https://www.tug.org/texlive/)
+
+### Online Editor
+An alternative to having a local editor and compiler is to use an online editor, with [Overleaf](https://www.overleaf.com/) being the best out there. It requires no installation to use, it comes with lots of templates and examples, and since your documents are tied to your account, you can access them anywhere.
