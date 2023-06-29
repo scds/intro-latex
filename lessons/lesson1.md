@@ -8,7 +8,7 @@ parent: Lessons
 {: .no_toc}
 # Lesson 1 - Creating your first LaTeX document
 
-Description
+In this lesson, we will be creating our first LaTeX document and explore some of the basic functionality of LaTeX.
 
 <details markdown="block">
   <summary>
