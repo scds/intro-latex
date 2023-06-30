@@ -499,7 +499,7 @@ Output
 </details>
 
 - In math mode, there are some extra commands supported that allow you to insert special characters. 
-  - For a full list of predefined LaTeX mathematical symbols, see <https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>.
+  - For a full list of predefined LaTeX mathematical symbols, see <https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf>.
 
 <details markdown="1">
 <summary>Math Mode Symbols Example</summary>
