@@ -67,7 +67,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment1.png">
+<img alt="latex bulleted lists" width="100%" src="../assets/img/lessons/environment1.png">
 
 </details>
 
@@ -103,7 +103,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment2.png">
+<img alt="latex numbered lists" width="100%" src="../assets/img/lessons/environment2.png">
 
 </details>
 
@@ -115,11 +115,11 @@ In order to add images to our LaTeX document, we need to first upload the image 
 
 - Navigate to the file explorer at the top left of the Overleaf window and select the `Upload` button.
 
-<img width="100%" src="../assets/img/lessons/environment3.png">
+<img alt="overleaf uploading an image" width="60%" src="../assets/img/lessons/environment3.png">
 
 - Then upload an image in the `Upload` section of the `Add Files` popup.
 
-<img width="100%" src="../assets/img/lessons/environment4.png">
+<img alt="overleaf different ways to upload an image" width="100%" src="../assets/img/lessons/environment4.png">
 
 - Your image should now appear in the file explorer.
 
@@ -165,7 +165,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment5.png">
+<img alt="latex image too big error" width="100%" src="../assets/img/lessons/environment5.png">
 
 </details>
 
@@ -195,7 +195,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment6.png">
+<img alt="latex resized penguin image" width="100%" src="../assets/img/lessons/environment6.png">
 
 </details>
 
@@ -231,7 +231,7 @@ To see some penguins, see Figure \ref{fig:penguin}.
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment7.png">
+<img alt="latex referenced figure" width="100%" src="../assets/img/lessons/environment7.png">
 
 </details>
 
@@ -268,7 +268,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment8.png">
+<img alt="latex equation environment" width="100%" src="../assets/img/lessons/environment8.png">
 
 </details>
 
@@ -306,7 +306,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment9.png">
+<img alt="another latex equation environment" width="100%" src="../assets/img/lessons/environment9.png">
 
 </details>
 
@@ -339,7 +339,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/environment9.png">
+<img alt="non numbered latex math environment" width="100%" src="../assets/img/lessons/environment9.png">
 
 </details>
 

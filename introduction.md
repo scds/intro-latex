@@ -40,7 +40,7 @@ MathJax = {
 
 <br>
 
-<img width="30%" alt="" src="assets/img/introduction/LaTeXlogo.png">
+<img width="30%" alt="latex logo" src="assets/img/introduction/LaTeXlogo.png">
 
 LaTeX is a markup language for creating high-quality documents. As a markup language, LaTeX takes care of the document formatting so that you can focus on the ontent. Unlike Microsoft Word and Google Docs, you don't need to worry about the formatting of content after the initial setup.
 
@@ -81,12 +81,12 @@ The universal law of gravitation can be expressed with the equation $ F = \frac{
 <div style="display: flex; justify-content: space-around; align-items: baseline" class="code-example">
 
 <div style="width: 45%" markdown="1">
-  <img width="100%" src="assets/img/introduction/tikz1.svg">
+  <img width="100%" src="assets/img/introduction/tikz1.svg" alt="hypersurface rendering figure made with tikz">
   (a) Source: [Wikipedia](https://en.wikipedia.org/w/index.php?title=PGF/TikZ&oldid=1157623668)
 </div>
 
 <div style="width: 45%" markdown="1">
-  <img width="100%" src="assets/img/introduction/tikz2.svg">
+  <img width="100%" src="assets/img/introduction/tikz2.svg" alt="Plot of two normal distributed variables with big variance made with tikz">
   (b) Source: [Wikipedia](https://en.wikipedia.org/w/index.php?title=PGF/TikZ&oldid=1157623668)
 </div>
 

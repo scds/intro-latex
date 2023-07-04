@@ -40,22 +40,22 @@ After logging onto Overleaf, you should see your profile dashboard. This page wi
 
 - To create a new project, click on the green `New Project`. You'll see a variety of templates available, but for now we just want the `Blank Project`.
 
-<img width="100%" src="../assets/img/lessons/document1.png" style="border: solid 2px black">
+<img alt="overleaf front page, creating a new project" width="100%" src="../assets/img/lessons/document1.png" style="border: solid 2px black">
 
 - Give your new project a name. It can be whatever you'd like, but we'll name ours `LaTeX Workshop Document`. When you're done, click on the green `Create` button.
 
-<img width="100%" src="../assets/img/lessons/document2.png" style="border: solid 2px black">
+<img alt="naming the new project" width="100%" src="../assets/img/lessons/document2.png" style="border: solid 2px black">
 
 - You should soon see your new document. On the left-hand side, you'll see a file explorer and file outline. The file explorer will be used to store any images or extra files we might need to create our document. The file outline will automatically generate something similar to a table of contents, allowing us to move through the document with ease.
 - To the right of that, you'll see the code editor. This is where we will actually write our LaTeX code.
 - Finally, on the right-hand side is the document preview. This is where we can see how our LaTeX document looks.
 
-<img width="100%" src="../assets/img/lessons/document3.png" style="border: solid 2px black">
+<img alt="overleaf editor page" width="100%" src="../assets/img/lessons/document3.png" style="border: solid 2px black">
 
 - Above the preview window, there's a green `Recompile` button with a dropdown menu. Every time we make a change to our LaTeX document, the preview window does not update until we recompile our LaTeX code. In the dropdown menu, there's an option for autocompilation, which will make it so that our LaTeX code will recompile automatically whenever we make a change.
   - For the workshop, we recommend leaving autocompilation off. By manually compiling your document, it'll be easier to see the differences in our document before and after a change. When working on documents outside the workshop, however, autocompilation is a really powerful tool that helps speed up the process of creating documents.
 
-<img width="60%" src="../assets/img/lessons/document4.png" style="border: solid 2px black">
+<img alt="overleaf additional compile settings" width="60%" src="../assets/img/lessons/document4.png" style="border: solid 2px black">
 
 ## "Blank" Project Overleaf Template
 
@@ -177,7 +177,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document5.png">
+<img alt="latex document with changed author and date" width="100%" src="../assets/img/lessons/document5.png">
 
 </details>
 
@@ -208,7 +208,7 @@ Input
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document6.png">
+<img alt="latex document with added sections" width="100%" src="../assets/img/lessons/document6.png">
 
 </details>
 
@@ -239,7 +239,7 @@ LaTeX is a markup language for creating high-quality documents. As a markup lang
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document7.png">
+<img alt="latex document with added paragraph"  width="100%" src="../assets/img/lessons/document7.png">
 
 </details>
 
@@ -269,7 +269,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document8.png">
+<img alt="incorrect: new paragraph appended to old paragraph" width="100%" src="../assets/img/lessons/document8.png">
 
 </details>
 
@@ -296,7 +296,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document9.png">
+<img alt="correct: new paragraph on a new line" width="100%" src="../assets/img/lessons/document9.png">
 
 </details>
 
@@ -332,7 +332,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document10.png">
+<img alt="latex document with table of contents" width="100%" src="../assets/img/lessons/document10.png">
 
 </details>
 
@@ -372,7 +372,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document11.png">
+<img alt="latex document with excluded sections in table of contents" width="100%" src="../assets/img/lessons/document11.png">
 
 </details>
 
@@ -418,7 +418,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document12.png">
+<img alt="latex document with text emphasis" width="100%" src="../assets/img/lessons/document12.png">
 
 </details>
 
@@ -464,7 +464,7 @@ LaTeX is also a very popular tool used to typeset mathematics and other special 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document13.png">
+<img alt="latex document with combined text emphasis" width="100%" src="../assets/img/lessons/document13.png">
 
 </details>
 
@@ -494,7 +494,7 @@ Suppose $x = 1$.
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document14.png">
+<img alt="latex math mode example" width="100%" src="../assets/img/lessons/document14.png">
 
 </details>
 
@@ -517,7 +517,7 @@ Suppose $x = 1$ and $y = 4$. Then $x \times y = 4$ and $x \div y = 0.25$.
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document14.png">
+<img alt="latex math mode special symbols" width="100%" src="../assets/img/lessons/document14.png">
 
 </details>
 
@@ -543,7 +543,7 @@ We did a campaign where 50\% of all profits went to charity, and we raised over 
 
 {: .label .label-green }
 Output
-<img width="100%" src="../assets/img/lessons/document15.png">
+<img alt="using dollar and percentage signs in latex" width="100%" src="../assets/img/lessons/document15.png">
 
 </details>
 
