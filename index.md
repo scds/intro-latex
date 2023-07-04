@@ -16,12 +16,13 @@ This module will introduce you to LaTeX, a typesetting system commonly used in S
 
 ## Prerequisites
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
-- TODO
+- An [Overleaf](https://www.overleaf.com/) account.
 
 <!-- What will the student learn to do, learn to use, etc. -->
 ## Learning Objectives
 By the end of this workshop, you will be able to:
-- TODO
+- Create simple LaTeX documents
+- Use images, equations, and other special content inside your document
 
 <!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
 ## Duration

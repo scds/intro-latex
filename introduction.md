@@ -38,6 +38,10 @@ MathJax = {
 
 ## What is LaTeX?
 
+<br>
+
+<img width="30%" alt="" src="assets/img/introduction/LaTeXlogo.png">
+
 LaTeX is a markup language for creating high-quality documents. As a markup language, LaTeX takes care of the document formatting so that you can focus on content. Unlike Microsoft Word and Google Docs, you don't need to worry about the formatting of content after the initial setup.
 
 LaTeX is also a very popular tool used to typeset mathematics and other special symbols.
