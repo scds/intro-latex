@@ -12,7 +12,12 @@ has_children: true
 
 # Introduction to LaTeX
 
-This module will introduce you to LaTeX, a typesetting system commonly used in STEM disciplines to create high-quality documents and easily write mathematical equations. We will discuss tools for writing in LaTeX, the structural elements of LaTeX, text formatting, and commands for writing mathematical equations. You will learn the commands to create your first LaTeX document.
+This module will introduce you to LaTeX, a typesetting system commonly used in STEM disciplines to create high-quality documents and easily write mathematical equations. 
+
+In this tutorial, we will discuss tools for writing in LaTeX, the structural elements of LaTeX, text formatting, and commands for writing mathematical equations. You will also learn the commands to create your first LaTeX document.
+
+Presentation by John Fink, Digital Scholarship Librarian.  
+[Book an appointment with John or another member of the SCDS Team.](https://libcal.mcmaster.ca/appointments/)
 
 ## Prerequisites
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->

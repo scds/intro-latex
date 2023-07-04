@@ -20,8 +20,7 @@ In this lesson, we will take a look at some of the environments LaTeX has to off
 </details>
 
 ## Lesson Objectives
-
-- Use environments to create special content.
+- Use environments to create special content
 - Create lists, figures, and equations 
 
 <!-- ## Lesson Video
@@ -32,9 +31,9 @@ The following video demonstrates each of the steps outlined below in text.
 
 ## What's an Environment?
 
-An environment is a special section of your LaTeX document that's formatted differently than the rest of your document. In the previous lesson, we went over inline math expressions which are also considered environments.
+An environment is a special section of your LaTeX document that's formatted differently than the rest of your document. In the previous lesson, we went over inline math expressions, which are also considered environments.
 
-Usually, environments begin with a `\begin{environment name}` and end with a `\end{environment name}`. 
+Usually, environments begin with `\begin{environment name}` and end with `\end{environment name}`. 
 
 LaTeX offers many environments, but here we will cover lists, figures, and equations.
 
@@ -45,7 +44,7 @@ We have two different types of lists to cover, bulleted lists and numbered lists
 ### Bulleted Lists
 
 - To create a bulleted list, we must create an `itemize` environment. This means we must start with `\begin{itemize}` and end with `\end{itemize}`.
-- Inside our environment, each item of our list will start with `\item` followed by the item itself. Take a look at the example below.
+- Inside our environment, each item in our list will start with `\item` followed by the item itself. Take a look at the example below.
 
 <details markdown="1">
 <summary>Bulleted List Example</summary>
@@ -75,7 +74,7 @@ Output
 ### Numbered Lists
 
 - To create a numbered list, we must create an `enumerate` environment.
-- Just like the itemize environment, each item of our list will start with `\item` followed by the item itself.
+- Just like in the itemize environment, each item of our list will start with `\item` followed by the item itself.
 
 <details markdown="1">
 <summary>Numbered List Example</summary>
@@ -114,7 +113,7 @@ In order to add images to our LaTeX document, we need to first upload the image 
 
 ### Uploading Your Images
 
-- Navigate to the file explorer, at the top left of the Overleaf window, and select the `Upload` button.
+- Navigate to the file explorer at the top left of the Overleaf window and select the `Upload` button.
 
 <img width="100%" src="../assets/img/lessons/environment3.png">
 
@@ -200,9 +199,9 @@ Output
 
 </details>
 
-Now our image fits on our document! You may notice however, the image isn't where we placed it in our text. It should appear at the end of our document, however it appear at the top, above our lists. What's going on?
+Now our image fits on our document! You may notice, however, that the image isn't where we placed it in our text. It should appear at the end of our document, but it appears at the top, above our lists. What's going on?
 
-This is one of LaTeX's *quirks*. In the figure environment, LaTeX makes the decision of where the image will appear - sometimes it's at the top of a page, sometimes it's on the bottom. There are workarounds to get images where you want them, for example, using the `\includegraphics` command outside of a figure environment. If you're just looking to place an image on a page and reference it in your text,  the figure environment is perfect for that.
+This is one of LaTeX's *quirks*. In the figure environment, LaTeX makes the decision of where the image will appear - sometimes it's at the top of a page, sometimes it's at the bottom. There are workarounds to get images where you want them, for example, using the `\includegraphics` command outside of a figure environment. If you're just looking to place an image on a page and reference it in your text,  the figure environment is perfect for that.
 
 ### Referencing Figures
 

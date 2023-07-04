@@ -42,7 +42,7 @@ MathJax = {
 
 <img width="30%" alt="" src="assets/img/introduction/LaTeXlogo.png">
 
-LaTeX is a markup language for creating high-quality documents. As a markup language, LaTeX takes care of the document formatting so that you can focus on content. Unlike Microsoft Word and Google Docs, you don't need to worry about the formatting of content after the initial setup.
+LaTeX is a markup language for creating high-quality documents. As a markup language, LaTeX takes care of the document formatting so that you can focus on the ontent. Unlike Microsoft Word and Google Docs, you don't need to worry about the formatting of content after the initial setup.
 
 LaTeX is also a very popular tool used to typeset mathematics and other special symbols.
 
@@ -59,7 +59,7 @@ LaTeX is used to make a variety of different types of documents, some of which i
 
 ## Examples of Math Typesetting in LaTeX    
 
-Using LaTeX for mathematics is a lot quicker than other means of writing. It automatically takes care of the sizing of symbols and the spacing between characters. Below are a couple examples of equations, written both independent of text but also in-line with text.
+Using LaTeX for mathematics is a lot quicker than other means of writing. It automatically takes care of the sizing of symbols and the spacing between characters. Below are a couple examples of equations, written both independently of text and in-line with text.
 
 <div class="code-example">
 
@@ -109,7 +109,7 @@ The universal law of gravitation can be expressed with the equation $ F = \frac{
 ## Tools for writing in LaTeX
 
 ### Editors
-While you can write LaTeX in just about any text editor, [Texmaker](https://www.xm1math.net/texmaker/) is one of the most popular editors that supports all major operating systems. It comes with built in tools that makes writing in LaTeX a lot easier. 
+While you can write LaTeX in just about any text editor, [Texmaker](https://www.xm1math.net/texmaker/) is one of the most popular editors that supports all major operating systems. It comes with built-in tools that make writing in LaTeX a lot easier. 
 
 ### Distributions / Compilers
 In order to turn your LaTeX code into a document, you need a LaTeX compiler. There are three main compilers for LaTeX, one for each operating system.

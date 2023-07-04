@@ -21,8 +21,8 @@ In this lesson, we will be creating our first LaTeX document and explore some of
 
 ## Lesson Objectives
 
-- Understand what a document preamble and document body are. 
-- Create sections, subsections, paragraphs, and table of contents.
+- Understand what a document preamble and body are. 
+- Create sections, subsections, paragraphs, and a table of contents.
 - Use text emphasis to bold, italicize, and underline words.
 - Create inline math expressions. 
 
@@ -36,7 +36,7 @@ The following video demonstrates each of the steps outlined below in text.
 
 If you haven't already, go to [Overleaf](https://www.overleaf.com/) and log in.
 
-After logging onto Overleaf, you should see your profile dashboard. This page will show you all your projects, as well as giving you the option to create a new project. 
+After logging onto Overleaf, you should see your profile dashboard. This page will show you all your projects as well as give you the option to create a new one.
 
 - To create a new project, click on the green `New Project`. You'll see a variety of templates available, but for now we just want the `Blank Project`.
 
@@ -46,14 +46,14 @@ After logging onto Overleaf, you should see your profile dashboard. This page wi
 
 <img width="100%" src="../assets/img/lessons/document2.png" style="border: solid 2px black">
 
-- You should soon see your new document. On the left hand side, you'll see a file explorer and file outline. The file explorer will be used to store any images or extra files we might need to create our document. The file outline will automatically generate something similar to a table of contents, allowing us to move through the document with ease.
-- To the right of that, we'll the code editor. This is where we will actually write our LaTeX code.
-- Finally, on the right hand side is the document preview. This is where we can see how our LaTeX document looks like.
+- You should soon see your new document. On the left-hand side, you'll see a file explorer and file outline. The file explorer will be used to store any images or extra files we might need to create our document. The file outline will automatically generate something similar to a table of contents, allowing us to move through the document with ease.
+- To the right of that, you'll see the code editor. This is where we will actually write our LaTeX code.
+- Finally, on the right-hand side is the document preview. This is where we can see how our LaTeX document looks.
 
 <img width="100%" src="../assets/img/lessons/document3.png" style="border: solid 2px black">
 
 - Above the preview window, there's a green `Recompile` button with a dropdown menu. Every time we make a change to our LaTeX document, the preview window does not update until we recompile our LaTeX code. In the dropdown menu, there's an option for autocompilation, which will make it so that our LaTeX code will recompile automatically whenever we make a change.
-  - For the workshop, we recommend leaving autocompilation off. By manually compiling your document, it'll be easier to see the differences in our document before and after a change. When working on documents outside the workshop however, autocompilation is a really powerful tool that helps speed up the process of creating documents.
+  - For the workshop, we recommend leaving autocompilation off. By manually compiling your document, it'll be easier to see the differences in our document before and after a change. When working on documents outside the workshop, however, autocompilation is a really powerful tool that helps speed up the process of creating documents.
 
 <img width="60%" src="../assets/img/lessons/document4.png" style="border: solid 2px black">
 
@@ -79,7 +79,7 @@ Despite picking the `Blank Project` option, there's some LaTeX already created! 
 ```
 
 ### The Preamble
-The preamble is any lines of code that comes before the `\begin{document}` line. It consists of the initial LaTeX document setup, telling LaTeX what type of document it's going to be creating, any packages it might need, and some more general information about the document.
+The preamble consists of any lines of code that come before the `\begin{document}` line. It consists of the initial LaTeX document setup, telling LaTeX what type of document it's going to be creating, any packages it might need, and some more general information about the document.
 
 #### documentclass
 
@@ -93,7 +93,7 @@ The `\documentclass{article}` line specifies the type of document we're creating
 For a comprehensive list of document classes, see <https://ctan.org/topic/class>. 
 
 {: .warning}
-Take note that, while Overleaf supports most of the document classes listed in the resource provided, you might encounter errors without additional setup. If you installed LaTeX locally, you will likely encounter errors without some extra installations/setup.
+Take note that, while Overleaf supports most of the document classes listed in the resource provided, you might encounter errors without additional setup. If you installed LaTeX locally, you will likely encounter errors without some extra installation or setup.
 
 #### usepackage
 
@@ -101,21 +101,21 @@ The `\usepackage{graphicx}` line adds in the graphicx package, which lets LaTeX 
 
 With LaTeX, you will be using plenty of packages to add extra functionality to LaTeX. There are currently over 4,000 packages to choose from. They can range from very broad additions to some very specific additions ([like a font for adding images of dice](https://ctan.org/pkg/dice)).
 
-A full list of of packages can be found at <https://ctan.org/pkg>.
+A full list of packages can be found at <https://ctan.org/pkg>.
 
 Do not worry, you do not have to know what every package does or memorize the names of them. Most documents will only ever use the same 3 or 4 packages.
 
 #### General Information
 
-Lastly, the author, title of document, and date is also specified in our preamble. This information is used later on when creating the title of your document.
+Lastly, the author, title of the document, and date are also specified in our preamble. This information is used later on when creating the title of your document.
 
 ### The Document Body
 Anything in between `\begin{document}` and `\end{document}` is our document body. This is where we create the content of our document.
 
-There's two lines in the document body of the generated code, `\maketitle` and `\section{Introduction}`.
+There are two lines in the document body of the generated code, `\maketitle` and `\section{Introduction}`.
 
 #### maketitle
-`\maketitle` creates the title of your document, using the information from `\title`, `\author`, and `\date`.
+`\maketitle` creates the title of your document using the information from `\title`, `\author`, and `\date`.
 
 #### section
 `\section` creates a header for your content. There's also `\subsection`, which creates a subheader to further seperate content. We'll be working with both of these later on.
@@ -127,22 +127,22 @@ We'll also briefly touch up on LaTeX commands and comments before starting to ed
 ### Commands
 You may have noticed that all special commands start with a \, and that some have additional information inside a pair of curly brackets { }. That additional information is often called a parameter, and there are two types: optional parameters and mandatory parameters (which we'll just call parameters from now on). 
 
-Parameters use curly brackets { } and are required by the command for it to work. All the commands that we've worked with so far have used parameters rather than optional parameters, commands like `\author{}`, `\documentclass{}`, etc.
+Parameters use curly brackets { } and are required by the command for it to work. All the commands that we've worked with so far have used parameters rather than optional parameters, like `\author{}`, `\documentclass{}`, etc.
 
-Optional parameters on the other hand use square brackets [], and they provide some information to the command that's not required for them to function. This is most used to override default settings that the command is using. `\documentclass` accepts some optional parameters to override the default formatting styles that a document class might come with. For example, we can change the font size of an article document to 12pt by changing the `\documentclass{article}` to `\documentclass[12pt]{article}`.
+Optional parameters, on the other hand, use square brackets [ ], and they provide some information to the command that's not required for them to function.  This is most commonly used to override the default settings that the command is using. `\documentclass` accepts some optional parameters to override the default formatting styles that a document class might come with. For example, we can change the font size of an article document to 12pt by changing the `\documentclass{article}` to `\documentclass[12pt]{article}`.
 
 ### Comments
 Another important thing to mention is the text following the `\usepackage{graphicx}` line. It starts with a %, and the color of the text is slightly faded out compared to the rest of the code. These are comments, and they're used to create notes in code. These notes are ignored by LaTeX, but they're often beneficial for you or others to read.
 
-Since comments are ignored, they're also useful to temporarily disable lines of code! This is great for debugging issues, or testing how the document changes with/without a particular line.
+Since comments are ignored, they're also useful to temporarily disable lines of code! This is great for debugging issues or testing how the document changes with or without a particular line.
 
 ## Your First LaTeX Document
 
-Now that we understand what our LaTeX document is doing, we can start editing and creating our document.
+Now that we understand what our LaTeX document is doing, we can start editing and creating it.
 
 ### Changing the Author and Date
 
-- Let's start by editing the author and date for our document. 
+- Let's start by editing the author and date of our document. 
 
 {: .note-title }
 > Tip
@@ -185,7 +185,7 @@ Output
 
 ### Creating New Sections
 
-- Now, let's also try to create new sections and subsections. Use the `\section{}` and `\subsection{}` to create new sections in the document.
+- Now, let's also try to create new sections and subsections. Use `\section{}` and `\subsection{}` to create new sections in the document.
 
 <details markdown="1">
 <summary>Creating Sections Example</summary>
@@ -216,7 +216,7 @@ Output
 
 ### Creating a Paragraph
 
-- To create a paragraph, you simply write the text as you would normally. No fancy commands needed.
+- To create a paragraph, you simply write the text as you would normally. No fancy commands are needed.
 
 <details markdown="1">
 <summary>Creating a Paragraph Example</summary>
@@ -302,7 +302,7 @@ Output
 
 ### Creating a Table of Contents
 
-- LaTeX can also automatically create table of contents for you based on the sections and subsections you made. Simply use the `\tableofcontents` command wherever you'd like to insert a table of contents.
+- LaTeX can also automatically create a table of contents for you based on the sections and subsections you create. Simply use the `\tableofcontents` command wherever you'd like to insert a table of contents.
 
 <details markdown="1">
 <summary>Creating a Table of Contents Example</summary>
@@ -378,9 +378,9 @@ Output
 
 ### Using Text Emphasis 
 
-- To make text bold, use the `\textbf{}` and include the text as the parameter.
-- To make text italic, use the `\textit{}` and include the text as the parameter.
-- To underline text, use the `\underline{}` and include the text as the parameter.
+- To make text bold, use `\textbf{}` and include the text as the parameter.
+- To make text italic, use `\textit{}` and include the text as the parameter.
+- To underline text, use `\underline{}` and include the text as the parameter.
 
 <details markdown="1">
 <summary>Using Text Emphasis Example</summary>
@@ -422,7 +422,7 @@ Output
 
 </details>
 
-- Try combinining text emphasis out! Make bold italic text, or maybe italic underlined text!
+- Try combining text emphasis! Make bold italic text, or maybe italic underlined text!
 
 <details markdown="1">
 <summary>Combining Text Emphasis Example</summary>
@@ -472,7 +472,7 @@ Output
 
 - To create inline math statements, surround the math equation with dollar signs $ $. 
 - Any text inside the dollar signs will be in "math mode", and LaTeX will format it as if it were a math equation. 
-  - The example below showcases how "x = 1" looks like with and without math mode.
+  - The example below showcases what "x = 1" looks like with and without math mode.
 
 <details markdown="1">
 <summary>Math Mode Example</summary>
@@ -498,7 +498,7 @@ Output
 
 </details>
 
-- In math mode, there are some extra commands supported that allow you to insert special characters. 
+- In math mode, there are some extra commands that allow you to insert special characters. 
   - For a full list of predefined LaTeX mathematical symbols, see <https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf>.
 
 <details markdown="1">
@@ -523,7 +523,7 @@ Output
 
 ### Using $ and % in LaTeX
 
-- Since the $ and % symbols are used for comments and math mode, LaTeX gets confused when you try to use them like normal. In order to insert a $ symbol or a % symbol, preceed the symbol with a backslash \\.
+- Since the $ and % symbols are used for comments and math mode, LaTeX gets confused when you try to use them like normal. In order to insert a $ symbol or a % symbol, precede the symbol with a backslash \\.
 
 <details markdown="1">
 <summary>Using a $ and % Example</summary>
@@ -549,6 +549,6 @@ Output
 
 ## Key Points / Summary
 
-- The preamble tells LaTeX how to format the document, where as the body is the content of the document.
-- You can create sections and paragraphs with automatically generated table of contents.
+- The preamble tells LaTeX how to format the document, while the body is the content of the document.
+- You can create sections and paragraphs with an automatically generated table of contents.
 - You can also format math using math mode.
