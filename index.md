@@ -10,7 +10,7 @@ has_children: true
 
 <img src="assets/img/titleSlide.jpg" alt="Workshop Title Slide" width="100%">
 
-# Introduction to LaTeX
+# Introduction to Document Typesetting and Scientific Publishing with LaTeX
 
 This module will introduce you to LaTeX, a typesetting system commonly used in STEM disciplines to create high-quality documents and easily write mathematical equations. 
 
