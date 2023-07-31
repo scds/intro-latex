@@ -8,7 +8,7 @@ has_toc: false
 has_children: true 
 ---
 
-<img src="assets/img/titleSlide.jpg" alt="Workshop Title Slide" width="100%">
+<img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 # Introduction to Document Typesetting and Scientific Publishing with LaTeX
 
