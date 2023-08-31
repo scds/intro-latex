@@ -7,7 +7,7 @@ ga_tracking: "G-8K9G92YBJ3" # *** This needs to be set up in Google Analytics on
 # If you know some HTML, you can use HTML tags.
 # To create a link: <a href="PUT URL HERE">the text you want to show up</a>
 # Template: 'Module content created by <a href="LINK HERE">NAME</a> and <a href="LINK HERE">NAME</a>; edited for online use and online pages created by <a href="LINK HERE">NAME</a>.'
-credits: 'Module content created by Katie Harding and John Fink; edited for online use and online pages created by Veronica Litt and <a href="https://www.multipixels.dev">Richie Motorgeanu</a>.'
+credits: 'Module content created by Katie Harding and [John Fink](https://github.com/jbfink); edited for online use and online pages created by Veronica Litt and <a href="https://www.multipixels.dev">Richie Motorgeanu</a>.'
 
 # DMDS Settings
 # subtitle: "This workshop is part of the Do More with Digital Scholarship (DMDS) series."
