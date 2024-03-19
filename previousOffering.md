@@ -17,9 +17,12 @@ Workshop live recordings are listed here. They are provided as an **alternative*
 <!-- ----------------------------------------------------------------- -->
 
 <details markdown="1">
-<summary>March 2023</summary> <!-- Change "Month Year" with the date of the recording ---> 
+<summary>March 2024</summary> <!-- Change "Month Year" with the date of the recording ---> 
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/94a217ab-7f23-4465-b1a2-cf2436ba63da/public"></iframe>
 [View original here.](https://echo360.ca/media/94a217ab-7f23-4465-b1a2-cf2436ba63da/public)
+
+<embed src="assets/docs/20240312-latex.pdf" style="border:none;" width="100%" height="466px">
+[Download as PDF.](assets/docs/20240312-latex.pdf)
 </details>
 
 <!-- ----------------------------------------------------------------- -->
